@@ -1,0 +1,20 @@
+[
+	{
+		"name": "calculadora",
+		"price": "22",
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+		"id": 1
+	},
+	{
+		"name": "microscopio",
+		"price": "44",
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/microscope-lab-science-school-256.png",
+		"id": 2
+	},
+	{
+		"name": "Lapiz",
+		"price": "10",
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/pencil-pen-stationery-school-256.png",
+		"id": 3
+	}
+]

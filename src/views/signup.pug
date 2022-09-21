@@ -1,0 +1,28 @@
+html
+    head 
+        title='SignUp'
+        style(type="text/css").
+            .form {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+            }
+            .btn {
+                margin-top: 3%
+            }
+            .login-btn {
+                margin-top: 3%
+            }
+        body 
+            div
+                h2=message 
+                form( class='form' id='registerForm')
+                    label(name="nombre") Nombre: 
+                    input(name="name")
+                    label(name="nombre") e-mail: 
+                    input(name="email")
+                    label(name="nombre") Contraseña: 
+                    input(name="password" type="password")  
+                    button( class='btn' type="submit") Enviar
+                    button( class='login-btn' type="submit" onclick="window.location.href='/login'") Ir a Login
+        script(type='text/javascript' src='../public/js/register.js')
